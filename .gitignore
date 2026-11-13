@@ -21,3 +21,6 @@ build/
 .env
 .env.*
 *.key
+
+# Configuração local do Claude Code (permissões desta máquina)
+.claude/settings.local.json
