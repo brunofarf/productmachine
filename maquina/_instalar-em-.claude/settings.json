@@ -1,0 +1,24 @@
+{
+  "hooks": {
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"D:\\Reloud\\maquina\\scripts\\notificar.ps1\" -Mensagem \"O Claude precisa da sua atencao no projeto.\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"D:\\Reloud\\maquina\\scripts\\notificar.ps1\" -Mensagem \"Etapa concluida ou aguardando aprovacao. Veja projetos\\STATUS.md.\""
+          }
+        ]
+      }
+    ]
+  }
+}

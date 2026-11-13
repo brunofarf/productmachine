@@ -1,0 +1,23 @@
+# Repositório da MÁQUINA (D:\Reloud).
+# Os projetos têm repositório próprio (D:\Reloud\projetos) — ficam fora deste.
+/projetos/
+
+# Dados sensíveis — nunca vão para o Git
+_privado/
+**/_privado/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependências e builds de protótipos
+node_modules/
+dist/
+build/
+.next/
+
+# Segredos
+.env
+.env.*
+*.key
